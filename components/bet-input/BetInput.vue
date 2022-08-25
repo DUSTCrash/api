@@ -1,0 +1,5 @@
+var render = function render(){var _vm=this,_c=_vm._self._c;return _c('div',{staticClass:"bet-input"},[_c('span',{staticClass:"title"},[_vm._v("Bet Amount")]),_c('div',{staticClass:"input-wrapper"},[_c('div',{staticClass:"input-group"},[_c('img',{staticClass:"solana-icon",attrs:{"src":require("@/assets/images/greySolanaIcon.svg")}}),_c('input',{attrs:{"type":"text","placeholder":"0"},domProps:{"value":_vm.amount},on:{"change":_vm.onInputChange}})]),_c('div',{staticClass:"controls"},[_c('div',{staticClass:"controls-btn",on:{"click":_vm.min}},[_vm._v("Min")]),_c('div',{staticClass:"controls-btn",on:{"click":_vm.divide}},[_vm._v("1/2")]),_c('div',{staticClass:"controls-btn",on:{"click":_vm.double}},[_vm._v("2x")]),_c('div',{staticClass:"controls-btn",on:{"click":_vm.max}},[_vm._v("Max")])])])])
+}
+var staticRenderFns = []
+
+export { render, staticRenderFns }

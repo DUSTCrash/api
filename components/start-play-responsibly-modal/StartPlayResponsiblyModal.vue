@@ -1,0 +1,5 @@
+var render = function render(){var _vm=this,_c=_vm._self._c;return _c('Modal',{attrs:{"modalId":"startPlayResponsibly","disableClose":true}},[_c('div',{staticClass:"row manage-header"},[_c('span',{staticClass:"modal--title"},[_vm._v("Play responsibly "),_c('img',{staticClass:"gr",attrs:{"src":require("@/assets/images/gamble-responsibly.png")}})])]),_c('div',{staticClass:"row info"},[_c('span'),_vm._v("DEGEN CRASH WTF is a fun game, and we like to keep it this way. Please only bet with the amount you are willing to lose and play responsibly. You can always contact our support/founders if you find this game is impacting your mental well-being. "),_c('div',{staticClass:"row checkbox-row"},[_c('Checkbox',{attrs:{"checked":_vm.checked},on:{"onCheck":_vm.onCheck}},[_vm._v(" I confirm that I am over 18 and I am aware of the risks of gambling ")])],1),_c('Button',{staticClass:"continue-btn",attrs:{"size":"md","color":"green","disabled":!_vm.checked},on:{"click":_vm.runContinue}},[_vm._v("Continue")])],1)])
+}
+var staticRenderFns = []
+
+export { render, staticRenderFns }

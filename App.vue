@@ -1,0 +1,5 @@
+var render = function render(){var _vm=this,_c=_vm._self._c;return _c('div',{attrs:{"id":"app"}},[_c('Header'),(_vm.$store.state.config)?_c('div',{staticClass:"container"},[_c('router-view')],1):_vm._e(),_c('Footer'),(_vm.$store.state.modals.manageBalance)?_c('ManageBalanceModal'):_vm._e(),(_vm.$store.state.modals.fairPlay)?_c('FairPlayModal'):_vm._e(),(_vm.$store.state.modals.checkFairPlay)?_c('CheckFairPlayModal'):_vm._e(),(_vm.$store.state.modals.faq)?_c('FaqModal'):_vm._e(),(_vm.$store.state.modals.bugBounty)?_c('BugBountyModal'):_vm._e(),(_vm.$store.state.modals.playResponsibly)?_c('PlayResponsiblyModal'):_vm._e(),(_vm.$store.state.modals.terms)?_c('TermsModal'):_vm._e(),(_vm.$store.state.modals.changeName)?_c('ChangeNameModal'):_vm._e(),(_vm.$store.state.modals.startPlayResponsibly)?_c('StartPlayResponsiblyModal'):_vm._e(),(_vm.$store.state.multiWindow)?_c('MultiWindow'):_vm._e(),_c('transition',{attrs:{"name":"loader-fade"}},[(_vm.$store.state.loader)?_c('Loader'):_vm._e()],1)],1)
+}
+var staticRenderFns = []
+
+export { render, staticRenderFns }

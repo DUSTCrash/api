@@ -1,0 +1,5 @@
+var render = function render(){var _vm=this,_c=_vm._self._c;return _c('header',[_c('router-link',{staticClass:"logo-link",attrs:{"to":"/"}},[_c('img',{attrs:{"src":require("@/assets/images/wtfLogo.svg")}})]),(_vm.$store.state.user)?_c('div',{staticClass:"balance-wrapper"},[_c('div',{staticClass:"balance-amount"},[_c('img',{staticClass:"currency",attrs:{"src":require("@/assets/images/solana.svg")}}),_c('span',{staticClass:"value"},[_vm._v(_vm._s(_vm.userBalanceShow)+" SOL")])]),_c('Button',{staticClass:"deposit-btn",attrs:{"color":"green","size":"sm"},on:{"click":function($event){return _vm.$store.commit('openModal', 'manageBalance')}}},[_vm._v("Deposit")])],1):_vm._e(),_c('div',{staticClass:"auth-wrapper"},[(!_vm.$store.state.user)?_c('ConnectWallet',[_c('Button',{staticClass:"connect-wallet"},[_c('img',{attrs:{"src":require("@/assets/images/connectWallet.svg")}})])],1):_c('div',{staticClass:"auth-info"},[_c('span',{staticClass:"name"},[_vm._v(_vm._s(_vm.$store.state.user.name))]),_c('Button',{attrs:{"color":"red","size":"sm"},on:{"click":_vm.logout}},[_vm._v("Logout")])],1)],1)],1)
+}
+var staticRenderFns = []
+
+export { render, staticRenderFns }
